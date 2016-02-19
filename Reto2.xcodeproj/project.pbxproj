@@ -6,16 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D0BFA6B21C76CAF0000763F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BFA6B11C76CAF0000763F8 /* AppDelegate.swift */; };
-		D0BFA6B41C76CAF0000763F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BFA6B31C76CAF0000763F8 /* ViewController.swift */; };
-		D0BFA6B71C76CAF0000763F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BFA6B51C76CAF0000763F8 /* Main.storyboard */; };
-		D0BFA6B91C76CAF0000763F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BFA6B81C76CAF0000763F8 /* Assets.xcassets */; };
-		D0BFA6BC1C76CAF0000763F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BFA6BA1C76CAF0000763F8 /* LaunchScreen.storyboard */; };
-		D0BFA6C71C76CAF1000763F8 /* Reto2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BFA6C61C76CAF1000763F8 /* Reto2Tests.swift */; };
-		D0BFA6D21C76CAF1000763F8 /* Reto2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BFA6D11C76CAF1000763F8 /* Reto2UITests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		D0BFA6C31C76CAF1000763F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,19 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D0BFA6AE1C76CAF0000763F8 /* Reto2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reto2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0BFA6B11C76CAF0000763F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0BFA6B31C76CAF0000763F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0BFA6B61C76CAF0000763F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0BFA6B81C76CAF0000763F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0BFA6BB1C76CAF0000763F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D0BFA6BD1C76CAF0000763F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0BFA6C21C76CAF1000763F8 /* Reto2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Reto2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0BFA6C61C76CAF1000763F8 /* Reto2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reto2Tests.swift; sourceTree = "<group>"; };
-		D0BFA6C81C76CAF1000763F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0BFA6CD1C76CAF1000763F8 /* Reto2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Reto2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0BFA6D11C76CAF1000763F8 /* Reto2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reto2UITests.swift; sourceTree = "<group>"; };
-		D0BFA6D31C76CAF1000763F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BFA6AE1C76CAF0000763F8 /* Reto2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Reto2.app; path = "/Users/Saint_Remy/Desktop/iOS/Reto2/build/Debug-iphoneos/Reto2.app"; sourceTree = "<absolute>"; };
+		D0BFA6C21C76CAF1000763F8 /* Reto2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Reto2Tests.xctest; path = "/Users/Saint_Remy/Desktop/iOS/Reto2/build/Debug-iphoneos/Reto2Tests.xctest"; sourceTree = "<absolute>"; };
+		D0BFA6CD1C76CAF1000763F8 /* Reto2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Reto2UITests.xctest; path = "/Users/Saint_Remy/Desktop/iOS/Reto2/build/Debug-iphoneos/Reto2UITests.xctest"; sourceTree = "<absolute>"; };
+		D0BFA6DF1C76CB63000763F8 /* Auto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Auto.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,52 +58,8 @@
 		D0BFA6A51C76CAEF000763F8 = {
 			isa = PBXGroup;
 			children = (
-				D0BFA6B01C76CAF0000763F8 /* Reto2 */,
-				D0BFA6C51C76CAF1000763F8 /* Reto2Tests */,
-				D0BFA6D01C76CAF1000763F8 /* Reto2UITests */,
-				D0BFA6AF1C76CAF0000763F8 /* Products */,
+				D0BFA6DF1C76CB63000763F8 /* Auto.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		D0BFA6AF1C76CAF0000763F8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D0BFA6AE1C76CAF0000763F8 /* Reto2.app */,
-				D0BFA6C21C76CAF1000763F8 /* Reto2Tests.xctest */,
-				D0BFA6CD1C76CAF1000763F8 /* Reto2UITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D0BFA6B01C76CAF0000763F8 /* Reto2 */ = {
-			isa = PBXGroup;
-			children = (
-				D0BFA6B11C76CAF0000763F8 /* AppDelegate.swift */,
-				D0BFA6B31C76CAF0000763F8 /* ViewController.swift */,
-				D0BFA6B51C76CAF0000763F8 /* Main.storyboard */,
-				D0BFA6B81C76CAF0000763F8 /* Assets.xcassets */,
-				D0BFA6BA1C76CAF0000763F8 /* LaunchScreen.storyboard */,
-				D0BFA6BD1C76CAF0000763F8 /* Info.plist */,
-			);
-			path = Reto2;
-			sourceTree = "<group>";
-		};
-		D0BFA6C51C76CAF1000763F8 /* Reto2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				D0BFA6C61C76CAF1000763F8 /* Reto2Tests.swift */,
-				D0BFA6C81C76CAF1000763F8 /* Info.plist */,
-			);
-			path = Reto2Tests;
-			sourceTree = "<group>";
-		};
-		D0BFA6D01C76CAF1000763F8 /* Reto2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				D0BFA6D11C76CAF1000763F8 /* Reto2UITests.swift */,
-				D0BFA6D31C76CAF1000763F8 /* Info.plist */,
-			);
-			path = Reto2UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +150,7 @@
 				Base,
 			);
 			mainGroup = D0BFA6A51C76CAEF000763F8;
-			productRefGroup = D0BFA6AF1C76CAF0000763F8 /* Products */;
+			productRefGroup = D0BFA6A51C76CAEF000763F8;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -229,9 +166,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0BFA6BC1C76CAF0000763F8 /* LaunchScreen.storyboard in Resources */,
-				D0BFA6B91C76CAF0000763F8 /* Assets.xcassets in Resources */,
-				D0BFA6B71C76CAF0000763F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0BFA6B41C76CAF0000763F8 /* ViewController.swift in Sources */,
-				D0BFA6B21C76CAF0000763F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0BFA6C71C76CAF1000763F8 /* Reto2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0BFA6D21C76CAF1000763F8 /* Reto2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +221,6 @@
 			targetProxy = D0BFA6CE1C76CAF1000763F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D0BFA6B51C76CAF0000763F8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0BFA6B61C76CAF0000763F8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D0BFA6BA1C76CAF0000763F8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0BFA6BB1C76CAF0000763F8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D0BFA6D41C76CAF1000763F8 /* Debug */ = {
