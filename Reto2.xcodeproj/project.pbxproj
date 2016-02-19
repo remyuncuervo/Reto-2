@@ -24,9 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D0BFA6AE1C76CAF0000763F8 /* Reto2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Reto2.app; path = "/Users/Saint_Remy/Desktop/iOS/Reto2/build/Debug-iphoneos/Reto2.app"; sourceTree = "<absolute>"; };
-		D0BFA6C21C76CAF1000763F8 /* Reto2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Reto2Tests.xctest; path = "/Users/Saint_Remy/Desktop/iOS/Reto2/build/Debug-iphoneos/Reto2Tests.xctest"; sourceTree = "<absolute>"; };
-		D0BFA6CD1C76CAF1000763F8 /* Reto2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Reto2UITests.xctest; path = "/Users/Saint_Remy/Desktop/iOS/Reto2/build/Debug-iphoneos/Reto2UITests.xctest"; sourceTree = "<absolute>"; };
+		D0B5A52E1C76EE8400934951 /* Reto2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reto2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B5A52F1C76EE8400934951 /* Reto2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Reto2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B5A5301C76EE8400934951 /* Reto2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Reto2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B5A5311C76F0A100934951 /* Automovil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Automovil.playground; sourceTree = "<group>"; };
 		D0BFA6DF1C76CB63000763F8 /* Auto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Auto.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +59,11 @@
 		D0BFA6A51C76CAEF000763F8 = {
 			isa = PBXGroup;
 			children = (
+				D0B5A5311C76F0A100934951 /* Automovil.playground */,
 				D0BFA6DF1C76CB63000763F8 /* Auto.playground */,
+				D0B5A52E1C76EE8400934951 /* Reto2.app */,
+				D0B5A52F1C76EE8400934951 /* Reto2Tests.xctest */,
+				D0B5A5301C76EE8400934951 /* Reto2UITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +84,7 @@
 			);
 			name = Reto2;
 			productName = Reto2;
-			productReference = D0BFA6AE1C76CAF0000763F8 /* Reto2.app */;
+			productReference = D0B5A52E1C76EE8400934951 /* Reto2.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D0BFA6C11C76CAF1000763F8 /* Reto2Tests */ = {
@@ -97,7 +102,7 @@
 			);
 			name = Reto2Tests;
 			productName = Reto2Tests;
-			productReference = D0BFA6C21C76CAF1000763F8 /* Reto2Tests.xctest */;
+			productReference = D0B5A52F1C76EE8400934951 /* Reto2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D0BFA6CC1C76CAF1000763F8 /* Reto2UITests */ = {
@@ -115,7 +120,7 @@
 			);
 			name = Reto2UITests;
 			productName = Reto2UITests;
-			productReference = D0BFA6CD1C76CAF1000763F8 /* Reto2UITests.xctest */;
+			productReference = D0B5A5301C76EE8400934951 /* Reto2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -395,6 +400,7 @@
 				D0BFA6D81C76CAF1000763F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0BFA6D91C76CAF1000763F8 /* Build configuration list for PBXNativeTarget "Reto2Tests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +409,7 @@
 				D0BFA6DB1C76CAF1000763F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0BFA6DC1C76CAF1000763F8 /* Build configuration list for PBXNativeTarget "Reto2UITests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +418,7 @@
 				D0BFA6DE1C76CAF1000763F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
